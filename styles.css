@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #f6f7f8;
+    background: #ffffff;
 }
 
 .hero {
@@ -11,13 +11,6 @@ body {
     justify-content: space-between;
     padding: 0 100px;
     gap: 60px;
-
-    background: linear-gradient(
-    140deg,
-    #f7f7f7,
-    #eceff2
-    );
-    background-size: 200% 200%;
 }
 
 .hero-text {
@@ -130,6 +123,15 @@ nav a {
   color: #777;
 
   animation: bounce 2s infinite;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 @keyframes bounce {
