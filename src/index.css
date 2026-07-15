@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0F1117;
+  --color-signal: #1B5FA8;
+  --color-clear: #5B9BD5;
+  --color-mist: #B8CEEA;
+  --color-slate: #6B7280;
+  --color-paper: #F5F6F8;
+  --font-sora: "Sora", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-sora);
+  font-weight: 300;
+  color: var(--color-ink);
+  background: #fff;
+}
